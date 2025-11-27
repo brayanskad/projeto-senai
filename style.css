@@ -1,0 +1,137 @@
+:root {
+    --border: #727171;
+    --branco: #ffffff;
+    --btn: #990000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+header {
+    color: #030303;
+}
+
+.caixa-logo {
+    padding: 5px 5px;
+}
+
+#logo {
+    width: 80px;
+    height: 30px;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linha {
+    margin: auto;
+    width: 1000px;
+}
+
+.caixa-texto {
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.top {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 55px;
+    height: 13px;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.titulo {
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.texto {
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.carga {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.icone {
+    display: flex;
+    padding: 1px 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+.caixa-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.inscricao {
+    height: 30px;
+    width: 180px;
+    border-radius: 20px;
+
+
+}
+
+.color-btn {
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+}
+
+.color-caixa {
+    color: #ff0000;
+    border-color: #ff0000;
+}
+
+main{
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
