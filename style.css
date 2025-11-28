@@ -134,4 +134,6 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 33px;
+    gap: 15px;
 }
