@@ -6,7 +6,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 1px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -53,16 +53,18 @@ ul {
 .linha {
     margin: auto;
     width: 1000px;
+    gap: 15px 0px;
 }
 
 .caixa-texto {
-    height: 250px;
+    height: 260px;
     width: 300px;
     border: 1px solid black;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
 .categorias {
+    background-color: red;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -72,22 +74,26 @@ ul {
 .top {
     border: 1px solid black;
     border-radius: 10px;
-    width: 55px;
+    width: 60px;
     height: 13px;
     font-size: 10px;
     padding: 2px;
 }
 
 .titulo {
+    background-color: orange;
+    height: 75px;
     padding: 5px 10px;
     font-weight: bold;
     font-size: 23px;
 }
 
 .texto {
+    background-color: yellow;
     padding: 5px 10px;
     font-size: 11px;
     font-weight: bold;
+    height: 40px;
 }
 
 .carga {
@@ -96,6 +102,7 @@ ul {
 }
 
 .icone {
+    background-color: green;
     display: flex;
     padding: 1px 10px;
     align-items: center;
@@ -103,19 +110,18 @@ ul {
 }
 
 .caixa-btn {
+    background-color: blue;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    height: 80px;
+    height: 60px;
 }
 
 .inscricao {
-    height: 30px;
-    width: 180px;
+    height: 20px;
+    width: 150px;
     border-radius: 20px;
-
-
 }
 
 .color-btn {
@@ -129,11 +135,43 @@ ul {
     border-color: #ff0000;
 }
 
-main{
-    padding: 18px;
+main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 33px;
-    gap: 15px;
+    justify-content: center;
+    margin: 10px 80px;
+    gap: 20px;
+}
+
+.full-rodape {
+    width: 100%;
+    background-color: #333333;
+    color: var(--branco);
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #444444 1px solid ;
+}
+
+.titulo-main {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.₢ {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.final {
+    font-size: 12px;
+    margin: 5px;
 }
