@@ -71,10 +71,9 @@ ul {
     gap: 5px;
 }
 
-.top {
+.top-categorias {
     border: 1px solid black;
     border-radius: 10px;
-    width: 60px;
     height: 13px;
     font-size: 10px;
     padding: 2px;
@@ -118,6 +117,8 @@ ul {
     height: 60px;
 }
 
+
+
 .inscricao {
     height: 20px;
     width: 150px;
@@ -130,9 +131,21 @@ ul {
     color: #ffffff;
 }
 
+.color-btn:hover{
+    background-color: var(--branco);
+    color: #990000;
+    border-color: #990000;
+}
+
 .color-caixa {
     color: #ff0000;
     border-color: #ff0000;
+}
+
+.color-caixa:hover{
+    background-color: #990000;
+    color: var(--branco);
+    border-color: var(--branco);
 }
 
 main {
@@ -173,5 +186,5 @@ main {
 
 .final {
     font-size: 12px;
-    margin: 5px;
+    margin: 5px; 
 }
